@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main (void)
+{
+  //declaração de variáveis do tipo inteiro
+  int a, b, soma;
+  
+  printf("Pense em um numero em sua cabeca, GUARDE na sua calculadora ou no seu caderno e ");
+  system ("pause");
+
+  printf(" º Digite abaixo um numero para somar ao seu numero INICIALMENTE pensado: \n    ");
+  scanf("%d", &a); //recebe um inteiro e armazena na variável a
+  
+  printf(" º Digite outro numero abaixo para somar ao seu numero INICIALMENTE pensado: \n    ");
+  scanf("%d", &b); //recebe um inteiro e armazena na variável b
+  
+  printf("Agora, apos essas somas (numero_mental + numero_soma1 + numero_soma2), Diminua mentalmente o numero INICIALMENTE PENSADO e ");
+  system ("pause");
+
+  printf("recebendo resposta... ");
+  system ("pause");
+
+  printf("recebendo resposta... ");
+  system ("pause");
+
+  soma = a + b;
+  //Efetua adição de a com b e armazena na variável soma
+  
+  printf("Seu resultado eh= %d                 \n   OBRIGADO POR USAR PROGRAMA DE ANDERSON MARINHO BY ADS    ", soma); //Mostra mensagem com o resultado
+  
+  system ("pause");
+  return(0);
+}
